@@ -190,13 +190,13 @@ LEFT / RIGHT / OFF
 
 ## 📸 Project Output
 
-### Complete Setup
+### Dashboard
 
 <img width="3113" height="3000" alt="IMG_0671" src="https://github.com/Sudheer-1402/Dash-Board-Design-Using-CAN-Bus/blob/main/image.png?raw=true" />
 
-### Dashboard
+### Complete Setup
 
-<img width="3113" height="2260" alt="IMG_0673" src="https://github.com/Sudheer-1402/Dash-Board-Design-Using-CAN-Bus/blob/main/dashboard.jpg?raw=true" /> 
+<img width="3113" height="2260" alt="IMG_0673" src="https://github.com/Sudheer-1402/Dash-Board-Design-Using-CAN-Bus/blob/main/WhatsApp%20Image%202026-09-15%20at%2022.39.51%20(1).jpeg?raw=true" /> 
  
 ---- 
  
