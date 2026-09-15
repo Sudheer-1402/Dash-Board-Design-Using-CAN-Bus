@@ -37,7 +37,7 @@ To design and develop a Dash Board Design Using CAN Bus that acquires, decodes, 
 
 ✅ Interrupt-Based Event Handling
 
-✅ ADC-Based Battery Simulation
+✅ ADC-Based Fuel Simulation
 
 ---
 
