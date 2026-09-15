@@ -103,7 +103,7 @@ To design and develop a Dash Board Design Using CAN Bus that acquires, decodes, 
 ---
 ### 🔄Block Diagram
 
-<img width="1213" height="790" alt="image" src="https://github.com/user-attachments/assets/016e1e7f-1210-497e-af4e-c12f8f6aef5b" />
+<img width="1213" height="790" alt="image" src="https://github.com/Sudheer-1402/Dash-Board-Design-Using-CAN-Bus/blob/main/1528a4ed-3430-4f4f-8a64-079b5b83467a.png?raw=true" />
 
 ----
 ## ⚙️ Implementation Sequence
