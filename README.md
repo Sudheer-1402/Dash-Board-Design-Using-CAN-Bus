@@ -1,9 +1,12 @@
-# DASH-BOARD-DESIGN-USING-CAN BUS
-<h1 align="center">🚗DASH-BOARD-DESIGN-USING-CAN BUS</h1>
+# DASH-BOARD-DESIGN-USING-CAN-BUS
 
-## 📖 **Overview**
+<h1 align="center">🚗 DASH-BOARD-DESIGN-USING-CAN-BUS</h1>
 
-The **DASH-BOARD-DESIGN-USING-CAN BUS** is an embedded systems project developed using the **LPC2129 ARM7 Microcontroller** and the **Controller Area Network (CAN) Protocol**.
+---
+
+## 📖 Overview
+
+The **DASH-BOARD-DESIGN-USING-CAN-BUS** is an embedded systems project developed using the **LPC2129 ARM7 Microcontroller** and the **Controller Area Network (CAN) Protocol**.
 
 This project demonstrates communication between multiple Electronic Control Units (ECUs) over a CAN Bus to monitor and display vehicle parameters such as:
 
@@ -17,7 +20,7 @@ The system provides real-time monitoring through an LCD display and showcases di
 
 ## 🎯 Project Objective
 
-To design and develop a Dash Board Design Using CAN Bus that acquires, decodes, and displays real-time data from multiple ECUs, enabling effective monitoring of key vehicle parameters through an embedded display.
+To design and develop a **Dashboard Design Using CAN Bus** that acquires, decodes, and displays real-time data from multiple ECUs, enabling effective monitoring of key vehicle parameters through an embedded display.
 
 ---
 
@@ -53,8 +56,8 @@ To design and develop a Dash Board Design Using CAN Bus that acquires, decodes, 
 
 ### 🔋 Fuel Node
 
-- Monitors Fuel condition
-- Uses Fuel Guage to simulate Fuel Percentage
+- Monitors fuel condition
+- Uses Fuel Gauge to simulate Fuel Percentage
 - Converts voltage into fuel percentage (0–100%)
 - Sends fuel status over CAN Bus
 
@@ -66,7 +69,6 @@ To design and develop a Dash Board Design Using CAN Bus that acquires, decodes, 
 - Implements scrolling LED effects
 
 ---
----
 
 ## 🛠️ Hardware Requirements
 
@@ -74,7 +76,7 @@ To design and develop a Dash Board Design Using CAN Bus that acquires, decodes, 
 - MCP2551 CAN Transceiver
 - DS18B20 Temperature Sensor
 - LCD Display
-- Fuel Guage
+- Fuel Gauge
 - LEDs
 - Push Buttons / Switches
 - CAN Bus Connections
@@ -101,11 +103,15 @@ To design and develop a Dash Board Design Using CAN Bus that acquires, decodes, 
 - DS18B20 Sensor Interfacing
 
 ---
-### 🔄Block Diagram
 
-<img width="1213" height="790" alt="image" src="https://github.com/user-attachments/assets/016e1e7f-1210-497e-af4e-c12f8f6aef5b" />
+## 🔄 Block Diagram
 
-----
+<p align="center">
+  <img src="Docs/block_diagram.png" alt="Dashboard Design Using CAN Bus Block Diagram" width="100%">
+</p>
+
+---
+
 ## ⚙️ Implementation Sequence
 
 ### 1️⃣ LCD Verification
@@ -154,85 +160,23 @@ To design and develop a Dash Board Design Using CAN Bus that acquires, decodes, 
 ## 📂 Project Folder Structure
 
 ```text
-Multi-ECU-Vehicle-Monitoring-Using-CAN/
+DASH-BOARD-DESIGN-USING-CAN-BUS/
 │
 ├── Main_Node/
-│ ├── main.c
-│ ├── can.c
-│ ├── lcd.c
-│ └── ds18b20.c
+│   ├── main.c
+│   ├── can.c
+│   ├── lcd.c
+│   └── ds18b20.c
 │
 ├── Indicator_Node/
-│ ├── indicator.c
-│ └── can.c
+│   ├── indicator.c
+│   └── can.c
 │
 ├── Fuel_Node/
-│ ├── fuel.c
-│ └── adc.c
+│   ├── fuel.c
+│   └── adc.c
 │
 ├── Docs/
-│ ├── block_diagram.png
+│   └── block_diagram.png
 │
 └── README.md
-```
-----
-
-### Output
-
-The LCD displays:
-
-🌡️ Engine Temperature : XX °C
-
-🔋 Fuel Level : XX %
-
-🚦 Indicator Status :
-LEFT / RIGHT / OFF
-
-## 📸 Project Output
-
-### Dashboard Display
-
-<img width="3113" height="3000" alt="IMG_0671" src="https://github.com/user-attachments/assets/b2afa677-492d-49e9-948f-1fc606788741" />
-
-### Real-Time Monitoring
-
-<img width="3113" height="4000" alt="IMG_0674" src="https://github.com/user-attachments/assets/ac96fc39-1788-414c-a822-cf90625de8cb" />
-
-### Complete Setup
-
-<img width="3113" height="2260" alt="IMG_0673" src="https://github.com/user-attachments/assets/a3cbfcad-5d63-4387-9ecf-ea75e6e74a50" />
-
-----
-
-## 🚀 Applications
-
-- Automotive Embedded Systems
-- Vehicle Diagnostics
-- ECU Communication Systems
-- CAN-Based Industrial Automation
-- Vehicle Health Monitoring
-- Smart Transportation Systems
-- Distributed Embedded Networks
-----
-## 🎓 Learning Outcomes
-
-- Embedded C Programming
-- CAN Protocol Implementation
-- LPC2129 ARM7 Architecture
-- ADC and GPIO Interfacing
-- Interrupt Handling
-- Sensor Integration
-- Multi-ECU Communication
-- Real-Time Embedded System Design
-
------
-
-## 👨‍💻 Project By
-
-Sudheer Pulusuganti
-
-B.Tech – Electronics and Communication Engineering
-
-Vector India Major Project
-
-Embedded Systems | CAN | LPC2129
