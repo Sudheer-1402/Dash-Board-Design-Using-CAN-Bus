@@ -196,7 +196,7 @@ LEFT / RIGHT / OFF
 
 ### Dashboard
 
-<img width="3113" height="2260" alt="IMG_0673" src="https://github.com/user-attachments/assets/a3cbfcad-5d63-4387-9ecf-ea75e6e74a50" /> 
+<img width="3113" height="2260" alt="IMG_0673" src="https://github.com/Sudheer-1402/Dash-Board-Design-Using-CAN-Bus/blob/main/dashboard.jpg?raw=true" /> 
  
 ---- 
  
